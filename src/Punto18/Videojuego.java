@@ -3,9 +3,9 @@ package Punto18;
 public class Videojuego implements Entregable {
 
     private int horasEstimadas = 10;
-    private String titulo;
-    private String genero;
-    private String compania;
+    private String titulo="";
+    private String genero="";
+    private String compania="";
     private boolean entregado = false;
 
     public int getHorasEstimadas() {

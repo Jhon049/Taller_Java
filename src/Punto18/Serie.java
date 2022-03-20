@@ -2,11 +2,11 @@ package Punto18;
 
 public class Serie implements Entregable {
 
-    private String titulo;
+    private String titulo="";
     private int numeroDeTemporadas = 3;
     private boolean entregado = false;
-    private String genero;
-    private String creador;
+    private String genero="";
+    private String creador="";
 
     public String getTitulo() {
         return titulo;

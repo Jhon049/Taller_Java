@@ -1,11 +1,11 @@
 package Punto18.Data;
 
 public enum DataSeries {
-    TITULO_SERIE_1(12, "The Big Bang Theory", "Chuck Lorre"),
-    TITULO_SERIE_2(8, "Dr House", "David Shore"),
-    TITULO_SERIE_3(6, "Peaky Blinders", "Steven Knight"),
-    TITULO_SERIE_4(8, "Two and a Half Men", "Ashton Kutcher"),
-    TITULO_SERIE_5(5, "Gotham", "Bruno Heller");
+    The_Big_Bang_Theory(12, "Comedia", "Chuck Lorre"),
+    Dr_House(8, "Drama", "David Shore"),
+    Peaky_Blinders(6, "Accion", "Steven Knight"),
+    Two_and_a_Half_Men(8, "Comedia", "Ashton Kutcher"),
+    Gotham(5, "Ficcion", "Bruno Heller");
 
     private int numeroTemporadas;
     private String genero;

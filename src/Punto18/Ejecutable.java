@@ -18,7 +18,7 @@ public class Ejecutable {
         }
         contador = 0;
         for (DataVideojuegos data : DataVideojuegos.values()) {
-            videojuegos[contador] = new Videojuego(data.toString(), data.getHorasEstimadas());
+            videojuegos[contador] = new Videojuego(data.toString(), data.getHorasEstimadas(), data.getGenero(), data.getCompania());
             contador++;
         }
 
